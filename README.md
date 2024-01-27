@@ -1,5 +1,52 @@
 jawaban uas 
+
+1. {
+  "universitas": "Djuanda",
+  "prodi": "Ilmu Komputer",
+  "iat": 1674270000
+}
+
+
+
 2. 
+<table border="1">
+  <tr>
+    <th>Aspek</th>
+    <th>Arsitektur Monolitik</th>
+    <th>Arsitektur Mikroservis</th>
+  </tr>
+  <tr>
+    <td>Struktur Aplikasi</td>
+    <td>Terdiri dari satu kesatuan besar (monolit)</td>
+    <td>Terdiri dari beberapa layanan independen (mikroservis) </td>
+  </tr>
+  <tr>
+    <td>Skalanilitas</td>
+    <td> Keseluruhan aplikasi harus ditingkatkan bersama-sama</td>
+    <td>Setiap layanan dapat ditingkatkan secara independen</td>
+  </tr>
+  <tr>
+    <td>Pengembangan dan pemeliharaan</td>
+    <td>Lebih mudah dalam pengembangan awal dan pemeliharaan, karena semuanya berada dalam satu kode basis</td>
+    <td>Memerlukan manajemen kode yang lebih kompleks dan tim yang terdiri dari spesialis berbeda untuk setiap layanan </td>
+  </tr>
+  <tr>
+ <td>Ketergantungan Antar Komponen </td>
+    <td> Komponen-komponen saling terkait dan berbagi kode basis, sehingga perubahan di satu area dapat memengaruhi seluruh aplikasi</td>
+    <td> Setiap layanan memiliki lingkup yang lebih terisolasi, sehingga perubahan pada satu layanan tidak harus memengaruhi lainnya</td>
+  </tr>
+  <tr>
+    <td>Teknologi dan Bahasa Pemrograman </td>
+    <td>Biasanya menggunakan satu teknologi dan bahasa pemrograman untuk keseluruhan aplikasi </td>
+    <td> Dapat menggunakan teknologi dan bahasa pemrograman yang berbeda untuk setiap layanan sesuai dengan kebutuhan</td>
+  </tr>
+  <tr>
+    <td>Pengelolaan Data</td>
+    <td> Biasanya menggunakan satu basis data untuk seluruh aplikasi</td>
+    <td> Setiap layanan dapat memiliki basis data sendiri, memungkinkan lebih besar dalam hal pemisahan data dan skema</td>
+  </tr>
+</table>
+
 3.Middleware adalah perangkat lunak yang bertindak sebagai jembatan antara aplikasi atau komponen perangkat lunak yang berbeda. Ini menyediakan layanan tambahan di 
  atas sistem operasi yang mendasarinya, seperti manajemen sumber daya dan komunikasi antara aplikasi.
 -Keuntungan dari penerapan middleware
