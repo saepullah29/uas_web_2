@@ -78,4 +78,4 @@ jawaban uas
 	 Continuous Integration (CI) fokus pada penggabungan dan pengujian kode secara teratur,
    Continuous Delivery (CD) dan Continuous Deployment (CD) fokus pada pengiriman kode ke lingkungan pengujian atau produksi secara otomatis
 
-7. epullss.github.io
+7. https://epullss.github.io/
